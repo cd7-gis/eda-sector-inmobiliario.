@@ -1,0 +1,32 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Copias temporales de Jupyter
+.ipynb_checkpoints/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Datos locales: no publicar sin verificar autorización
+data/
+
+# Archivos temporales y registros
+*.log
+*.tmp
+~$*
